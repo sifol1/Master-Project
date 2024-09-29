@@ -1,0 +1,6 @@
+Expansion search in dimension 14, coefficients in dimension 1, starting exponent 3, total number of terms 8, number of tests 700, maximum number of functions in this file 7000000
+Start time: Fri Aug 23 11:34:46 2024
+Number of functions found by birthday attack: 17
+Number of false positives: 17
+Number of false positives in percent: 100.000%
+End time: Tue Aug 27 12:55:02 2024
