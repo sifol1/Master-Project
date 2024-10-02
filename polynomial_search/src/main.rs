@@ -21,7 +21,7 @@ fn main() -> Result<(), String>{
     let m: u32 = args.get(2).map_or(6, |s| s.parse().unwrap_or(6)); // Default is 6
     let e: u32 = args.get(3).map_or(3, |s| s.parse().unwrap_or(3)); // Default is 3
     let k: usize = args.get(4).map_or(3, |s| s.parse().unwrap_or(3)); // Default is 3
-    let number_of_tests: u32 = args.get(5).map_or(1000, |s| s.parse().unwrap_or(1000)); // Default is 1000
+    let number_of_tests: u32 = args.get(5).map_or(700, |s| s.parse().unwrap_or(700)); // Default is 700
     let max_number_of_functions: u32 = args.get(6).map_or(1200000, |s| s.parse().unwrap_or(1200000)); // Default is 1,200,000
 
     if n % m != 0{
